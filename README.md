@@ -1,5 +1,7 @@
 # TraceClean
 
+[English](README.md) | [中文](README_zh.md)
+
 **TraceClean** is an IDA Pro plugin designed to clean up obfuscated code (specifically OLLVM) by removing "dead code" based on runtime execution traces.
 
 It reads an execution trace log (e.g., from Unidbg, Frida, or Qiling) and NOPs out instructions that were **not** executed. This is extremely effective against **OLLVM Bogus Control Flow**, making the control flow graph (CFG) readable again.
